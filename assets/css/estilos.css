@@ -1,0 +1,176 @@
+body, ul, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#contenedor {
+
+width: 100%;
+
+
+}
+
+#primero {
+
+background-image: url("../images/bg.jpeg"); 
+background-position: 0% 90%;
+background-size: cover;
+background-attachment: fixed;
+min-height: 500px;
+
+}
+
+.boton_1, .boton_2 {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+  }
+
+ .boton_1:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+  	}
+
+.boton_1 {
+	background-color: #1883ba;
+	margin-right: 10px;
+	}
+.boton_2 {
+   background-color: #3CCD5C;
+    
+	}
+.boton_2:hover {
+    color: #3CCD5C;
+    background-color: #ffffff;
+  }
+
+.boton_3 {
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #1883ba;
+}
+
+ .boton_3:hover {
+    color: #1883ba;
+    background-color: #ffffff;
+  	}
+
+#centrar_btns {
+   
+	text-align: center;
+	padding-top: 30px;
+
+}
+
+#centrar_btns3 {
+   
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+
+#segundo {
+
+background-color: white;
+min-height: 500px;
+
+}
+
+#tercero {
+
+background-color: #F5F5F5;
+min-height: 280px;
+border-top: 1px solid #BEBEBE;
+border-bottom: 1px solid #BEBEBE;
+}
+
+#cuarto {
+
+background-color: white;
+min-height: 200px;
+
+}
+
+li{
+	display: inline;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #ADADAD;
+	padding: 25px;
+	float: right;
+}
+
+footer {
+	background-color: #1A1A1A;
+	min-height: 80px;
+}
+
+.logo_latam {
+	max-width: 15%;
+	padding: 20px;
+	float: left;
+}
+
+nav {
+	padding: 0 170px;
+}
+h1{
+
+color: white;
+font-family: sans-serif;
+font-size: 30px;
+text-align: center;
+padding-top: 200px;
+font-weight: normal;
+line-height: 45px;
+
+}
+
+h2 {
+color: grey;
+font-family: sans-serif;
+font-size: 20px;
+text-align: center;
+padding-top: 40px;
+
+}
+
+p {
+color: grey;
+font-family: sans-serif;
+font-size: 13px;
+text-align: center;
+line-height: 20px;
+padding-top: 3px;
+
+
+}
+
+.img_personas {
+	width: 35%; 
+	display:block;
+	margin:auto;
+
+}
+
+.text_footer {
+color: grey;
+font-family: sans-serif;
+font-size: 13px;
+text-align: left;
+line-height: 20px;
+font-weight: bold;
+padding-left:170px;
+padding-top: 25px;
+margin: 0;
+}
