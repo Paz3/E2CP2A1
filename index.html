@@ -3,99 +3,93 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/estilos.css">	
-	
+	<title>Ejercicio_08</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="assets/css/estilos.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 
+
 <body>
+<!-- Primer Div -->
+<div class="jumbotron">
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+	  <div class="navbar-header">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	    </button>    
+	    	<a class="navbar-brand" href="#">
+	        <img class="img-responsive logo" src="assets/images/latam_logo.png" alt="">
+	      </a>
+	  </div>
+			<div class="navbar-collapse collapse">
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><a href="#about">Contacto</a></li>
+			      <li><a href="#contact">Blog</a></li>
+			      <li><a href="#contact">Equipo</a></li>
+			    </ul>
+	  		</div>
+	  	</nav>
+	</div>
+	<div class="container titulo"> 	
+	  	<h1> COMIENZA UNA NUEVA VIDA Y <br>ÚNETE AL MUNDO <br>TECNOLÓGICO</h1>
+	  	<div class="buttons">
+  			<button class="blue">Comienza Acá!</button>
+  			<button class="green">Más Info</button>
+		</div>
+		<div class="buttons">
+		<h5> Hay una escasez gigante de desarrolladores en el mundo y más aún en Latinoamérica, 
+		se necesitan más<br> desarrolladores y Tú puedes ser uno!</h5>	
+		</div>
+	</div>
+</div>
+
+<!-- Fin Primer div -->
+<!---->
+<!-- Segundo Div -->
+
+<div class="jumbotron_second">
+	<div class="container">
+		<div class="col-md-12">
+			<div id="carousel-1" class="carousel slide" data-ride='carousel'>
+			<!--Indicadores-->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-1" data-slide-to="0"></li>
+					<li data-target="#carousel-1" data-slide-to="1"></li>
+					<li data-target="#carousel-1" data-slide-to="2"></li>
+				</ol>
+
+				<!--Contenedor de los slides-->
+				<div class="carousel-inner" rol="listbox">
+					<div class="item">
+						<img src="assets/images/bg2.jpeg" class="img-responsive" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Fin segundo div-->
 	
 </body>
-
-<div id="contenedor">
-
-	<div id="primero">
-
-	<nav>
-
-	<img class="logo_latam" src="assets/images/latam_logo.png" alt="logo">
-		<ul>
-			<li>Equipo</li>
-			<li>Blog</li>
-			<li>Contacto</li>
-		</ul>
-	</nav>
-
-	<h1> COMIENZA UNA NUEVA VIDA Y <br>ÚNETE AL MUNDO <br>TECNOLÓGICO</h1>
-	 
-	 <div id="centrar_btns">
-
-	 <a class="boton_1" href="#">Comienza acá!</a>
-	 <a class="boton_2" href="#">Más Info</a>
-
-	</div>
-
-
-	</div>
-
-	<div id="segundo">
-	<h2>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.</p>
-	<img class="img_personas" src="assets/images/viewing-gallery-for-happy-people.png" alt="personas">
-	</div>
-
-	<div id="tercero">
-	<h2>SOLICITA INFORMACIÓN E INSCRÍBETE</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat.</p>
-	<div id="centrar_btns3">
-
-	 <a class="boton_3" href="#">Inscríbete!</a>
-	 <p>Vive la experiencia Desafío Latam</p>
-
-	</div>
-
-
-	</div>
-
-	<div id="cuarto">
-
-<div class="cuarto_right">
-	
-
-	<h3>Contacto</h3>
-	<p class="texto_cuarto_bold">Desafío Latam</p>
-	<p class="texto_cuarto">Ezequias Alliende 2361</p>
-	<p class="texto_cuarto">P: +56 9 51177975</p>
-	<p class="texto_cuarto_azul">inscripciones@desafiolatam.com</p>
-
-</div>
-
-<div class="cuarto_left">
-	
-
-	<h3 class="h3_right">Suscríbete</h3>
-	<p class="texto_cuarto_left">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
-	<form class="formulario" action="#">
-
-  	<input type="text" placeholder="Ingresa tu mail">
-  	<button type="submit">Enviar</button>
-
-</form>
-
-</div>
-</div>
-</div>
-
-<footer>
-<p class="text_footer">DESAFÍOLATAM 2016 - CURSO FULLSTACK G5</p>
-
-</footer>
-
 </html>
+
+
+<!-- 			<h4>EL BOOTCAMP DE PROGRAMACIÓN MÁS GRANDE DE LATINOAMÉRICA</h4>
+				<div class="text_bajada">
+					<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. <br>Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</h5>	
+				</div>	 -->

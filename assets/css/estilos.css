@@ -1,263 +1,77 @@
-body, ul, h1 {
-	margin: 0;
-	padding: 0;
+.jumbotron {
+	background-image: url("../images/bg.jpeg");
+	background-position: center; 
+	background-size: cover;
+	margin-bottom: 0;
 }
 
-#contenedor {
-
-width: 100%;
-
-
+.jumbotron_second {
+	background-color: white;
+	height: 500px;
+	background-position: center; 
+	background-size: cover;
 }
 
-#primero {
-
-background-image: url("../images/bg.jpeg"); 
-background-position: 0% 90%;
-background-size: cover;
-background-attachment: fixed;
-min-height: 500px;
-
-}
-
-.boton_1, .boton_2 {
-    text-decoration: none;
-    padding: 10px;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 6px;
-  }
-
- .boton_1:hover {
-    color: #1883ba;
-    background-color: #ffffff;
-  	}
-
-.boton_1 {
-	background-color: #1883ba;
-	margin-right: 10px;
-	}
-.boton_2 {
-   background-color: #3CCD5C;
-    
-	}
-.boton_2:hover {
-    color: #3CCD5C;
-    background-color: #ffffff;
-  }
-
-.boton_3 {
-    text-decoration: none;
-    padding: 10px;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    color: #ffffff;
-    border-radius: 6px;
-    background-color: #1883ba;
-}
-
- .boton_3:hover {
-    color: #1883ba;
-    background-color: #ffffff;
-  	}
-
-#centrar_btns {
-   
+.container {
 	text-align: center;
-	padding-top: 30px;
-
 }
 
-#centrar_btns3 {
-   
-	text-align: center;
-	padding-top: 10px;
-
+.titulo {
+	color: white;
 }
 
+.navbar {
 
-#segundo {
-
-background-color: white;
-min-height: 500px;
-
+	color:#ABABAB;
+	background: transparent;
+	border: none;
+    box-shadow: none;
+    margin-bottom: 50px;
 }
 
-#tercero {
-
-background-color: #F5F5F5;
-min-height: 280px;
-border-top: 1px solid #BEBEBE;
-border-bottom: 1px solid #BEBEBE;
+.navbar-brand {
+	padding: 10px 10px;
 }
 
-#cuarto {
-
-background-color: white;
-min-height: 200px;
-
+.logo {
+	height: 100%;
 }
 
-li{
-	display: inline;
-	font-family: sans-serif;
+.jumbotron h1 {
+    font-size: 35px;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+button {
+	
+	color: #fff;
+    background-color: #337ab7;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.green {
+	background-color: #5cb85c;
+}
+
+.buttons h5 {
 	font-weight: normal;
-	color: #ADADAD;
-	padding: 25px;
-	float: right;
+	margin-bottom: 35px;
+    margin-top: 20px;
 }
 
-footer {
-	background-color: #1A1A1A;
-	min-height: 80px;
+.container h4 {
+	margin-top: 70px;
 }
 
-.logo_latam {
-	max-width: 15%;
-	padding: 20px;
-	float: left;
+.container h5 {
+	font-weight: normal;
+	margin-top: 20px;
+	line-height: 1.5;
 }
 
-nav {
-	padding: 0 170px;
-}
-h1{
-
-color: white;
-font-family: sans-serif;
-font-size: 30px;
-text-align: center;
-padding-top: 200px;
-font-weight: normal;
-line-height: 45px;
-
-}
-
-h2 {
-color: grey;
-font-family: sans-serif;
-font-size: 20px;
-text-align: center;
-padding-top: 40px;
-
-}
-
-h3 {
-color: grey;
-font-family: sans-serif;
-font-size: 17px;
-text-align: left;
-padding-top: 50px;
-padding-bottom: 15px;
-padding-left: 60%;
-margin: 0;
-
-
-}
-
-.h3_right  {
-color: grey;
-font-family: sans-serif;
-font-size: 17px;
-text-align: left;
-padding-top: 50px;
-padding-bottom: 15px;
-padding-left: 10px;
-margin: 0;
-
-
-}
-
-
-p {
-color: grey;
-font-family: sans-serif;
-font-size: 13px;
-text-align: center;
-line-height: 18px;
-
-}
-
-.cuarto_right, .cuarto_left {
-	float: left;
-	width: 50%;
-
-}
-
-.texto_cuarto {
-	text-align: left;
-	padding-left: 60%;
-	margin: 0;
-
-	
-}
-
-.texto_cuarto_bold {
-	text-align: left;
-	padding-left: 60%;
-	font-weight: bold;
-	margin: 0;
-	
-
-}
-
-.texto_cuarto_left {
-	text-align: left;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	margin: 0;
-	
-
-}
-
-.texto_cuarto_azul {
-	text-align: left;
-	padding-left: 60%;
-	padding-bottom: 10px;
-	margin: 0;
-	color:blue;
-	
-
-}
-
-.img_personas {
-	width: 35%; 
-	display:block;
-	margin:auto;
-
-}
-
-.text_footer {
-color: grey;
-font-family: sans-serif;
-font-size: 13px;
-text-align: left;
-line-height: 20px;
-font-weight: bold;
-padding-left:170px;
-padding-top: 25px;
-margin: 0;
-}
-
-.formulario {
-	text-align: left;
-	padding-left: 10px;
-}
-
-.formulario input,
-.formulario button {
-padding: 3px;
-border: 1px solid #CCC;
-border-radius: 5px;
-}
-
-.formulario input {
-padding: 5px;
-}
-
-.formulario button {
-
-}
