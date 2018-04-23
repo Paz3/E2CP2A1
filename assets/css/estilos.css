@@ -6,10 +6,20 @@
 }
 
 .jumbotron_second {
-	background-color: white;
-	height: 500px;
+	background-color: #EAEAEA;
 	background-position: center; 
 	background-size: cover;
+}
+
+.jumbotron_third {
+	background-color: #F5F5F5;
+	background-position: center; 
+	border-bottom: 1px solid gray;
+}
+
+.jumbotron_fourth {
+	background-color: #FFFFFF;
+	border-bottom: 1px solid gray;
 }
 
 .container {
@@ -51,8 +61,6 @@ button {
     border-radius: 4px;
     border: none;
     padding: 10px;
-    margin: 5px;
-    margin-top: 30px;
 }
 
 .green {
@@ -61,8 +69,7 @@ button {
 
 .buttons h5 {
 	font-weight: normal;
-	margin-bottom: 35px;
-    margin-top: 20px;
+	margin-bottom: 65px;
 }
 
 .container h4 {
@@ -74,4 +81,117 @@ button {
 	margin-top: 20px;
 	line-height: 1.5;
 }
+
+
+.text_carousel  {
+    padding-top: 2%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+	margin-top: 20px;
+	line-height: 1.5;
+}
+
+.opacidad{
+
+ opacity: 0.8;
+
+}
+
+.text_third  {
+    padding-top: 4%;
+    width: 100%;
+    text-align: center;
+    color: #646464;
+    line-height: 1.5;
+}
+
+.text_third h5 {
+	font-weight: normal;
+}
+
+.text_bajada h5 {
+	font-weight: normal;
+}
+
+.blue {
+    margin-top: 0px;
+}
+
+footer {
+	background-color: #1A1A1A;
+}
+
+.text_footer {
+color: grey;
+font-family: sans-serif;
+font-size: 13px;
+text-align: left;
+line-height: 20px;
+font-weight: bold;
+padding-left:170px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 0;
+}
+
+.col-xs-6 {
+	text-align: left;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.col-xs-6 h6 {
+	font-weight: normal;
+	font-size: 1.3em;
+
+}
+
+.col-xs-3 {
+	text-align: left;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.col-xs-3 h6 {
+	font-weight: normal;
+	font-size: 1.3em;
+
+}
+
+.texto_cuarto_bold {
+
+	font-weight: bold;
+
+}
+
+.texto_cuarto_azul {
+	padding-bottom: 10px;
+	color:blue;
+	margin-top: 10px;
+	
+
+}
+
+p {
+    margin: 0;
+}
+
+.form-group {
+
+	padding-top: 10px;
+}
+
+
+@media (min-width: 1528px) 
+{
+
+	.carousel-inner {
+    height: 600px;
+}
+
+}
+
 
